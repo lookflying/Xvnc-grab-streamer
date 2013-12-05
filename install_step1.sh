@@ -106,6 +106,10 @@ check_last_command $LINENO
 dpkg -i google-chrome-stable_current_amd64.deb
 check_last_command $LINENO
 
+apt-get install xdotool -y >&/dev/null
+check_last_command $LINENO
+
+
 change_component "l_ipp_em64t_p_6.1.6.063"
 tar xzf l_ipp_em64t_p_6.1.6.063.tar.gz 
 check_last_command $LINENO

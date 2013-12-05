@@ -25,5 +25,8 @@ if [ $# = 2 ]
 #		Xvnc -depth 24 :$1 -geometry $RESOLU &
 	 	$XVNC -depth 24 :$1 -geometry $RESOLU &
 fi
-google-chrome --display=:$1 --no-first-run --window-size=1280,720 --user-data-dir=/tmp/chrome$1 ~/MC/index/index.html
-#chromium-browser --display=:$1 --no-first-run --user-data-dir=/tmp/chrome$1 ~/MC/index/index.html
+#google-chrome --display=:$1 --no-first-run --window-size=1280,720 --user-data-dir=/tmp/chrome$1 ~/MC/index/index.html
+#google-chrome --display=:$1 --no-first-run --window-size=1280,720 --user-data-dir=/tmp/chrome$1 ~/3D/movie.html
+google-chrome --display=:$1 --no-first-run --window-size=1280,720 --user-data-dir=/tmp/chrome$1 /home/lookflying/3D/movie.html &
+sleep 3
+DISPLAY=:$1 xdotool search --onlyvisible --class google-chrome key ctrl+r 
