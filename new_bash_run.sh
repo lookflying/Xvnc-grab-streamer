@@ -63,5 +63,6 @@ else
 		$mediaclouddemo $i >& $demolog/mediaclouddemo$i.log &
 		$vncviewer localhost $i $i &
 	done
+	$refresh
 fi
 
