@@ -3,6 +3,7 @@ rundemo=~/MC/MediaCloud/rundemo.sh
 mediaclouddemo=~/MC/MediaCloud/mediaclouddemo.sh
 demolog=~/MC/MediaCloud/demo_log
 vncviewer=~/MC/MediaCloud/vnc_auto.sh
+refresh=~/MC/MediaCloud/refresh.sh
 
 #Set Bash color
 ECHO_PREFIX_INFO="\033[1;32;40mINFO...\033[0;0m"
