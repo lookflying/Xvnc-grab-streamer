@@ -101,7 +101,7 @@ check_last_command $LINENO
 cp -a rtp msdk_encode ffmpeg-0.8.12-mpegtsencchanged.tar.gz vnc_unixsrc_msdk.tar.gz ~/MC/MediaCloud
 check_last_command $LINENO
 
-cp all_in_one_run.sh vnc_auto.sh bash_run_x.sh stop.sh new_bash_run.sh mediaclouddemo.sh rundemo.sh ~/MC/MediaCloud
+cp all_in_one_run.sh vnc_auto.sh bash_run_x.sh stop.sh new_bash_run.sh mediaclouddemo.sh rundemo.sh refresh.sh ~/MC/MediaCloud
 check_last_command $LINENO
 
 cd ~/MC/
